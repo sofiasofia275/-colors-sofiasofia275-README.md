@@ -1,0 +1,29 @@
+#initialization
+import random
+import turtle
+sofia=turtle.Turtle
+turtle.colormode(255)
+
+#function
+def randomDot):
+    r=random.radint(0,255)
+    g=random.randint(0,255)
+    b=random.radint(0,255)
+    c=random.randit(10,100)
+    print(r)
+    print(g)
+    print(b)
+    print(c)
+    sofia.color(r,g,b)
+    sofia.begin_fill()
+    sofia.circle(c)
+    sofia.end_fill()
+    
+#Main
+for i in range(10):
+    sofia.prenup()
+    x=random.randint(-400,300)
+    y=random.randint(-400,300)
+    sofia.goto(x,y)
+    sofia.pendown()
+    randomDot()
